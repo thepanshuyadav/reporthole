@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6AFDCBC245B34630011332E /* NewComplaintDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFDCBB245B34630011332E /* NewComplaintDetailView.swift */; };
+		D6DAD2F4245A80D300DF0977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD2F3245A80D300DF0977 /* AppDelegate.swift */; };
+		D6DAD2F6245A80D300DF0977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD2F5245A80D300DF0977 /* SceneDelegate.swift */; };
+		D6DAD2F9245A80D300DF0977 /* Reporthole.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD2F7245A80D300DF0977 /* Reporthole.xcdatamodeld */; };
+		D6DAD2FB245A80D300DF0977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD2FA245A80D300DF0977 /* ContentView.swift */; };
+		D6DAD2FD245A80D500DF0977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DAD2FC245A80D500DF0977 /* Assets.xcassets */; };
+		D6DAD300245A80D500DF0977 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DAD2FF245A80D500DF0977 /* Preview Assets.xcassets */; };
+		D6DAD30E245A80D500DF0977 /* ReportholeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD30D245A80D500DF0977 /* ReportholeTests.swift */; };
+		D6DAD319245A80D500DF0977 /* ReportholeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD318245A80D500DF0977 /* ReportholeUITests.swift */; };
+		D6DAD327245A9ED200DF0977 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD326245A9ED200DF0977 /* HomeView.swift */; };
+		D6DAD329245AA36000DF0977 /* NewComplaintMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD328245AA36000DF0977 /* NewComplaintMapView.swift */; };
+		D6DAD32B245AB2A000DF0977 /* ComplaintCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD32A245AB2A000DF0977 /* ComplaintCellView.swift */; };
+		D6DAD32D245AB32900DF0977 /* ComplaintDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAD32C245AB32900DF0977 /* ComplaintDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6DAD30A245A80D500DF0977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DAD2E8245A80D300DF0977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6DAD2EF245A80D300DF0977;
+			remoteInfo = Reporthole;
+		};
+		D6DAD315245A80D500DF0977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DAD2E8245A80D300DF0977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6DAD2EF245A80D300DF0977;
+			remoteInfo = Reporthole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6AFDCBB245B34630011332E /* NewComplaintDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewComplaintDetailView.swift; sourceTree = "<group>"; };
+		D6DAD2F0245A80D300DF0977 /* Reporthole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reporthole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DAD2F3245A80D300DF0977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6DAD2F5245A80D300DF0977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6DAD2F8245A80D300DF0977 /* Reporthole.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reporthole.xcdatamodel; sourceTree = "<group>"; };
+		D6DAD2FA245A80D300DF0977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6DAD2FC245A80D500DF0977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6DAD2FF245A80D500DF0977 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6DAD304245A80D500DF0977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DAD309245A80D500DF0977 /* ReportholeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReportholeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DAD30D245A80D500DF0977 /* ReportholeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportholeTests.swift; sourceTree = "<group>"; };
+		D6DAD30F245A80D500DF0977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DAD314245A80D500DF0977 /* ReportholeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReportholeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DAD318245A80D500DF0977 /* ReportholeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportholeUITests.swift; sourceTree = "<group>"; };
+		D6DAD31A245A80D500DF0977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DAD326245A9ED200DF0977 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D6DAD328245AA36000DF0977 /* NewComplaintMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewComplaintMapView.swift; sourceTree = "<group>"; };
+		D6DAD32A245AB2A000DF0977 /* ComplaintCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintCellView.swift; sourceTree = "<group>"; };
+		D6DAD32C245AB32900DF0977 /* ComplaintDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6DAD2ED245A80D300DF0977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DAD306245A80D500DF0977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DAD311245A80D500DF0977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6DAD2E7245A80D300DF0977 = {
+			isa = PBXGroup;
+			children = (
+				D6DAD2F2245A80D300DF0977 /* Reporthole */,
+				D6DAD30C245A80D500DF0977 /* ReportholeTests */,
+				D6DAD317245A80D500DF0977 /* ReportholeUITests */,
+				D6DAD2F1245A80D300DF0977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6DAD2F1245A80D300DF0977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6DAD2F0245A80D300DF0977 /* Reporthole.app */,
+				D6DAD309245A80D500DF0977 /* ReportholeTests.xctest */,
+				D6DAD314245A80D500DF0977 /* ReportholeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6DAD2F2245A80D300DF0977 /* Reporthole */ = {
+			isa = PBXGroup;
+			children = (
+				D6DAD2F3245A80D300DF0977 /* AppDelegate.swift */,
+				D6DAD2F5245A80D300DF0977 /* SceneDelegate.swift */,
+				D6DAD2FA245A80D300DF0977 /* ContentView.swift */,
+				D6DAD326245A9ED200DF0977 /* HomeView.swift */,
+				D6DAD328245AA36000DF0977 /* NewComplaintMapView.swift */,
+				D6AFDCBB245B34630011332E /* NewComplaintDetailView.swift */,
+				D6DAD32A245AB2A000DF0977 /* ComplaintCellView.swift */,
+				D6DAD32C245AB32900DF0977 /* ComplaintDetails.swift */,
+				D6DAD2FC245A80D500DF0977 /* Assets.xcassets */,
+				D6DAD304245A80D500DF0977 /* Info.plist */,
+				D6DAD2F7245A80D300DF0977 /* Reporthole.xcdatamodeld */,
+				D6DAD2FE245A80D500DF0977 /* Preview Content */,
+			);
+			path = Reporthole;
+			sourceTree = "<group>";
+		};
+		D6DAD2FE245A80D500DF0977 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6DAD2FF245A80D500DF0977 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6DAD30C245A80D500DF0977 /* ReportholeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6DAD30D245A80D500DF0977 /* ReportholeTests.swift */,
+				D6DAD30F245A80D500DF0977 /* Info.plist */,
+			);
+			path = ReportholeTests;
+			sourceTree = "<group>";
+		};
+		D6DAD317245A80D500DF0977 /* ReportholeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6DAD318245A80D500DF0977 /* ReportholeUITests.swift */,
+				D6DAD31A245A80D500DF0977 /* Info.plist */,
+			);
+			path = ReportholeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6DAD2EF245A80D300DF0977 /* Reporthole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DAD31D245A80D500DF0977 /* Build configuration list for PBXNativeTarget "Reporthole" */;
+			buildPhases = (
+				D6DAD2EC245A80D300DF0977 /* Sources */,
+				D6DAD2ED245A80D300DF0977 /* Frameworks */,
+				D6DAD2EE245A80D300DF0977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reporthole;
+			productName = Reporthole;
+			productReference = D6DAD2F0245A80D300DF0977 /* Reporthole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6DAD308245A80D500DF0977 /* ReportholeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DAD320245A80D500DF0977 /* Build configuration list for PBXNativeTarget "ReportholeTests" */;
+			buildPhases = (
+				D6DAD305245A80D500DF0977 /* Sources */,
+				D6DAD306245A80D500DF0977 /* Frameworks */,
+				D6DAD307245A80D500DF0977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6DAD30B245A80D500DF0977 /* PBXTargetDependency */,
+			);
+			name = ReportholeTests;
+			productName = ReportholeTests;
+			productReference = D6DAD309245A80D500DF0977 /* ReportholeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6DAD313245A80D500DF0977 /* ReportholeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DAD323245A80D500DF0977 /* Build configuration list for PBXNativeTarget "ReportholeUITests" */;
+			buildPhases = (
+				D6DAD310245A80D500DF0977 /* Sources */,
+				D6DAD311245A80D500DF0977 /* Frameworks */,
+				D6DAD312245A80D500DF0977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6DAD316245A80D500DF0977 /* PBXTargetDependency */,
+			);
+			name = ReportholeUITests;
+			productName = ReportholeUITests;
+			productReference = D6DAD314245A80D500DF0977 /* ReportholeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6DAD2E8245A80D300DF0977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Deepanshu Yadav";
+				TargetAttributes = {
+					D6DAD2EF245A80D300DF0977 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D6DAD308245A80D500DF0977 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D6DAD2EF245A80D300DF0977;
+					};
+					D6DAD313245A80D500DF0977 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D6DAD2EF245A80D300DF0977;
+					};
+				};
+			};
+			buildConfigurationList = D6DAD2EB245A80D300DF0977 /* Build configuration list for PBXProject "Reporthole" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6DAD2E7245A80D300DF0977;
+			productRefGroup = D6DAD2F1245A80D300DF0977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6DAD2EF245A80D300DF0977 /* Reporthole */,
+				D6DAD308245A80D500DF0977 /* ReportholeTests */,
+				D6DAD313245A80D500DF0977 /* ReportholeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6DAD2EE245A80D300DF0977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DAD300245A80D500DF0977 /* Preview Assets.xcassets in Resources */,
+				D6DAD2FD245A80D500DF0977 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DAD307245A80D500DF0977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DAD312245A80D500DF0977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6DAD2EC245A80D300DF0977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DAD32B245AB2A000DF0977 /* ComplaintCellView.swift in Sources */,
+				D6DAD2F4245A80D300DF0977 /* AppDelegate.swift in Sources */,
+				D6DAD2F9245A80D300DF0977 /* Reporthole.xcdatamodeld in Sources */,
+				D6AFDCBC245B34630011332E /* NewComplaintDetailView.swift in Sources */,
+				D6DAD329245AA36000DF0977 /* NewComplaintMapView.swift in Sources */,
+				D6DAD2FB245A80D300DF0977 /* ContentView.swift in Sources */,
+				D6DAD327245A9ED200DF0977 /* HomeView.swift in Sources */,
+				D6DAD32D245AB32900DF0977 /* ComplaintDetails.swift in Sources */,
+				D6DAD2F6245A80D300DF0977 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DAD305245A80D500DF0977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DAD30E245A80D500DF0977 /* ReportholeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DAD310245A80D500DF0977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DAD319245A80D500DF0977 /* ReportholeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6DAD30B245A80D500DF0977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6DAD2EF245A80D300DF0977 /* Reporthole */;
+			targetProxy = D6DAD30A245A80D500DF0977 /* PBXContainerItemProxy */;
+		};
+		D6DAD316245A80D500DF0977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6DAD2EF245A80D300DF0977 /* Reporthole */;
+			targetProxy = D6DAD315245A80D500DF0977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6DAD31B245A80D500DF0977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6DAD31C245A80D500DF0977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6DAD31E245A80D500DF0977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Reporthole/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M2K4CQRC7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Reporthole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepanshu.Reporthole;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6DAD31F245A80D500DF0977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Reporthole/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M2K4CQRC7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Reporthole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepanshu.Reporthole;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6DAD321245A80D500DF0977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2K4CQRC7;
+				INFOPLIST_FILE = ReportholeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepanshu.ReportholeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reporthole.app/Reporthole";
+			};
+			name = Debug;
+		};
+		D6DAD322245A80D500DF0977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2K4CQRC7;
+				INFOPLIST_FILE = ReportholeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepanshu.ReportholeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reporthole.app/Reporthole";
+			};
+			name = Release;
+		};
+		D6DAD324245A80D500DF0977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2K4CQRC7;
+				INFOPLIST_FILE = ReportholeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepanshu.ReportholeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reporthole;
+			};
+			name = Debug;
+		};
+		D6DAD325245A80D500DF0977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2K4CQRC7;
+				INFOPLIST_FILE = ReportholeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepanshu.ReportholeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reporthole;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6DAD2EB245A80D300DF0977 /* Build configuration list for PBXProject "Reporthole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DAD31B245A80D500DF0977 /* Debug */,
+				D6DAD31C245A80D500DF0977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DAD31D245A80D500DF0977 /* Build configuration list for PBXNativeTarget "Reporthole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DAD31E245A80D500DF0977 /* Debug */,
+				D6DAD31F245A80D500DF0977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DAD320245A80D500DF0977 /* Build configuration list for PBXNativeTarget "ReportholeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DAD321245A80D500DF0977 /* Debug */,
+				D6DAD322245A80D500DF0977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DAD323245A80D500DF0977 /* Build configuration list for PBXNativeTarget "ReportholeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DAD324245A80D500DF0977 /* Debug */,
+				D6DAD325245A80D500DF0977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D6DAD2F7245A80D300DF0977 /* Reporthole.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D6DAD2F8245A80D300DF0977 /* Reporthole.xcdatamodel */,
+			);
+			currentVersion = D6DAD2F8245A80D300DF0977 /* Reporthole.xcdatamodel */;
+			path = Reporthole.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D6DAD2E8245A80D300DF0977 /* Project object */;
+}
